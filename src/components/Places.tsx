@@ -1,5 +1,5 @@
 interface PlacesProps {
-  //image: string;
+  image: string;
   title: string;
   location: string;
   // mapLink: string ;
@@ -9,6 +9,7 @@ interface PlacesProps {
 function Places(props: PlacesProps): JSX.Element {
   return (
     <section>
+      <img src={props.image} alt=""></img>
       <h2> {props.title}</h2>
       <h3> {props.location}</h3>
       <p> {props.description}</p>

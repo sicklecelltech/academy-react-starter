@@ -1,9 +1,10 @@
 import Places from "./Places";
 
-function MainContent() {
+function MainContent(): JSX.Element {
   return (
     <>
       <Places
+        image={"./Inverness_Castle_Scotland.jpg"}
         title={"Weekend with the Grandparents"}
         location={"Inverness, St.Ann, Jamaica"}
         description={
@@ -11,6 +12,9 @@ function MainContent() {
         }
       />
       <Places
+        image={
+          "https://en.wikipedia.org/wiki/Inverness_Castle#/media/File:Inverness_Castle,_Scotland_-_Diliff.jpg"
+        }
         title={"Going to the closet beach"}
         location={"Fort Clarence, St.Catherine, Jamaica"}
         description={
@@ -18,6 +22,9 @@ function MainContent() {
         }
       />
       <Places
+        image={
+          "https://en.wikipedia.org/wiki/Inverness_Castle#/media/File:Inverness_Castle,_Scotland_-_Diliff.jpg"
+        }
         title={"Scotland Roadtrip Pt 1"}
         location={"Inverness, Scotland, United Kingdom"}
         description={
@@ -25,6 +32,9 @@ function MainContent() {
         }
       />
       <Places
+        image={
+          "https://en.wikipedia.org/wiki/Inverness_Castle#/media/File:Inverness_Castle,_Scotland_-_Diliff.jpg"
+        }
         title={"Scotland Roadtrip Pt 2"}
         location={"Dundee, Scotland, Untited Kingdom"}
         description={
@@ -32,6 +42,9 @@ function MainContent() {
         }
       />
       <Places
+        image={
+          "https://en.wikipedia.org/wiki/Inverness_Castle#/media/File:Inverness_Castle,_Scotland_-_Diliff.jpg"
+        }
         title={"Random Road Trip"}
         location={"Portsmouth, England, United Kingdom"}
         description={
